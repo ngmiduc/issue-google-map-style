@@ -1,0 +1,7 @@
+{
+  "name": "issue-google-maps-style",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
