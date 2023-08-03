@@ -292,7 +292,7 @@ export class HomePage implements OnInit {
   changeMapType(type: 'terrain' | 'hybrid'): void {
     this.mapType = type
     this.googleMap.setMapType(
-      type === 'terrain' ? MapType.Hybrid : MapType.Terrain
+      type === 'terrain' ? MapType.Terrain : MapType.Hybrid
     )
   }
 }
